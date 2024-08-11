@@ -1,0 +1,73 @@
+.contact {
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    
+    &__list {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: flex-end;
+    }
+}
+
+.contact__box {
+    padding: 20px;
+    margin: 0 auto 2rem;
+    text-align: left;
+    line-height: 1.5rem;
+    min-width: 600px;
+    border: 2px solid #fff;
+    background-color: brown;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+h2 {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.contact__box p {
+    text-transform: uppercase;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    font-size: 1rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
+
+.phone-button {
+    background-color: #007bff;
+}
+
+.email-button {
+    background-color: #28a745; 
+}
+
+.email-button:hover {
+    background-color: #218838;
+}
+
+.linkedin-button {
+    background-color: #0077b5;
+}
+
+.linkedin-button:hover {
+    background-color: #005582;
+}
+
